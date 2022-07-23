@@ -1,0 +1,40 @@
+{
+    "navbar": [
+        {
+            "name": "Home",
+            "link": "#",
+            "codename": "home"
+        },
+        {
+            "name": "About Us",
+            "link": "#about",
+            "codename": "about"
+        }
+    ],
+    "navbarRight": [
+        {
+            "name": "Cart",
+            "link": "#cart",
+            "codename": "cart"
+        }
+    ],
+    "pages": {
+        "about": {
+            "text": [
+                "This is a website made with the svelte! framework.",
+                "The products are fetched from an express API.",
+                "You can find the source code on github: "
+            ],
+            "link": [
+                {
+                    "name": "Frontend Link",
+                    "url": "https://gitpod.io/#https://github.com/GalaxyGamingBoy/TS_STORE_API"
+                },
+                {
+                    "name": "API Link",
+                    "url": "https://gitpod.io/#https://github.com/GalaxyGamingBoy/TS_STORE_API"
+                }
+            ]
+        }
+    }
+}
